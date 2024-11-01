@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rod Wave Quiz</title>
+    <link rel="stylesheet" type="text/css" href="rodIndex.css">
+</head>
+<body>
+    <form action="rodResults.html" method="get" id="quizForm">
+        <h1>Which Rod Wave Album Are You?</h1>
+        <p>The album you resonate with speaks volumes. Answer these questions to find out which one represents you best!</p>
+
+       
+        <div>
+            <label for="fname">What is your name?</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+        </div>
+
+        <div>
+            <label for="amount">How many different Rod Wave albums do you listen to?</label><br>
+            <input type="number" id="amount" name="amount" step="1" required><br>
+        </div>
+
+      
+        <div>
+            <p>How do you handle stress?</p>
+            <input type="radio" id="art" name="stress" value="art" required>
+            <label for="art">I write or create art.</label><br>
+
+            <input type="radio" id="famAndFriends" name="stress" value="famAndFriends">
+            <label for="famAndFriends">I talk to friends and family.</label><br>
+
+            <input type="radio" id="breakAndRecharge" name="stress" value="breakAndRecharge">
+            <label for="breakAndRecharge">I take a break and recharge.</label><br>
+
+            <input type="radio" id="pushThruAndKeepGoing" name="stress" value="pushThruAndKeepGoing">
+            <label for="pushThruAndKeepGoing">I push through and keep going.</label><br>
+
+            <input type="radio" id="exercise" name="stress" value="exercise">
+            <label for="exercise">I go for a run or exercise.</label><br>
+
+            <input type="radio" id="listenToMusic" name="stress" value="listenToMusic">
+            <label for="listenToMusic">I listen to music that helps me relax.</label><br>
+        </div>
+
+   
+        <div>
+            <p>Which word best describes your personality?</p>
+            <input type="radio" id="resilient" name="personality" value="resilient" required>
+            <label for="resilient">Resilient</label><br>
+
+            <input type="radio" id="passionate" name="personality" value="passionate">
+            <label for="passionate">Passionate</label><br>
+
+            <input type="radio" id="reflective" name="personality" value="reflective">
+            <label for="reflective">Reflective</label><br>
+
+            <input type="radio" id="ambitious" name="personality" value="ambitious">
+            <label for="ambitious">Ambitious</label><br>
+
+            <input type="radio" id="compassionate" name="personality" value="compassionate">
+            <label for="compassionate">Compassionate</label><br>
+
+            <input type="radio" id="calm" name="personality" value="calm">
+            <label for="calm">Calm</label><br>
+        </div>
+
+      
+        <div>
+            <p>What kind of advice do you often give friends?</p>
+            <input type="radio" id="stayFocused" name="advice" value="stayFocused" required>
+            <label for="stayFocused">Stay focused and keep working toward your goals.</label><br>
+
+            <input type="radio" id="takeItSlow" name="advice" value="takeItSlow">
+            <label for="takeItSlow">It’s okay to take things slow and reflect.</label><br>
+
+            <input type="radio" id="leanOnSupport" name="advice" value="leanOnSupport">
+            <label for="leanOnSupport">Lean on the people who care about you.</label><br>
+
+            <input type="radio" id="findPassion" name="advice" value="findPassion">
+            <label for="findPassion">Find your passion and express yourself.</label><br>
+
+            <input type="radio" id="workHard" name="advice" value="workHard">
+            <label for="workHard">Work hard but don’t lose yourself.</label><br>
+
+            <input type="radio" id="stayHopeful" name="advice" value="stayHopeful">
+            <label for="stayHopeful">Stay hopeful even when things are tough.</label><br>
+        </div>
+                <!-- Question 4 -->
+                <div>
+                    <p>What does success mean to you?</p>
+                    <input type="radio" id="bigGoals" name="success" value="bigGoals" required>
+                    <label for="bigGoals">Achieving big personal goals.</label><br>
+        
+                    <input type="radio" id="overcomingChallenges" name="success" value="overcomingChallenges">
+                    <label for="overcomingChallenges">Overcoming tough times and finding peace.</label><br>
+        
+                    <input type="radio" id="helpingOthers" name="success" value="helpingOthers">
+                    <label for="helpingOthers">Helping my friends and family thrive.</label><br>
+        
+                    <input type="radio" id="stayingTrue" name="success" value="stayingTrue">
+                    <label for="stayingTrue">Staying true to myself no matter what.</label><br>
+        
+                    <input type="radio" id="innerStrength" name="success" value="innerStrength">
+                    <label for="innerStrength">Finding inner strength and staying grounded.</label><br>
+        
+                    <input type="radio" id="personalGrowth" name="success" value="personalGrowth">
+                    <label for="personalGrowth">Experiencing personal growth.</label><br>
+                </div>
+        
+                <!-- Question 5 -->
+                <div>
+                    <p>Which best describes your weekend vibe?</p>
+                    <input type="radio" id="timeWithFriends" name="weekendVibe" value="timeWithFriends" required>
+                    <label for="timeWithFriends">Spending time with friends.</label><br>
+        
+                    <input type="radio" id="relaxingAtHome" name="weekendVibe" value="relaxingAtHome">
+                    <label for="relaxingAtHome">Relaxing with a good book or movie.</label><br>
+        
+                    <input type="radio" id="creativeProjects" name="weekendVibe" value="creativeProjects">
+                    <label for="creativeProjects">Working on a creative project.</label><br>
+        
+                    <input type="radio" id="exploringNew" name="weekendVibe" value="exploringNew">
+                    <label for="exploringNew">Exploring something new.</label><br>
+        
+                    <input type="radio" id="selfCare" name="weekendVibe" value="selfCare">
+                    <label for="selfCare">Enjoying a self-care day at home.</label><br>
+        
+                    <input type="radio" id="localEvents" name="weekendVibe" value="localEvents">
+                    <label for="localEvents">Attending a local event or concert.</label><br>
+                </div>
+        
+                <!-- Question 6 -->
+                <div>
+                    <p>How do you typically express your emotions?</p>
+                    <input type="radio" id="heartOnSleeve" name="emotionExpression" value="heartOnSleeve" required>
+                    <label for="heartOnSleeve">I wear my heart on my sleeve.</label><br>
+        
+                    <input type="radio" id="keepPrivate" name="emotionExpression" value="keepPrivate">
+                    <label for="keepPrivate">I keep my feelings private.</label><br>
+        
+                    <input type="radio" id="throughArt" name="emotionExpression" value="throughArt">
+                    <label for="throughArt">I express myself through art or music.</label><br>
+        
+                    <input type="radio" id="closeFriendsOnly" name="emotionExpression" value="closeFriendsOnly">
+                    <label for="closeFriendsOnly">I share my feelings with close friends only.</label><br>
+        
+                    <input type="radio" id="journal" name="emotionExpression" value="journal">
+                    <label for="journal">I journal to process my feelings.</label><br>
+        
+                    <input type="radio" id="openExpression" name="emotionExpression" value="openExpression">
+                    <label for="openExpression">I openly express my emotions, regardless of the setting.</label><br>
+                </div>
+                        <!-- Question 7 -->
+        <div>
+            <p>What's your go-to vibe when listening to Rod Wave?</p>
+            <input type="radio" id="upbeat" name="listeningVibe" value="upbeat" required>
+            <label for="upbeat">Upbeat and hopeful</label><br>
+
+            <input type="radio" id="reflective" name="listeningVibe" value="reflective">
+            <label for="reflective">Reflective and introspective</label><br>
+
+            <input type="radio" id="emotionalIntense" name="listeningVibe" value="emotionalIntense">
+            <label for="emotionalIntense">Emotional and intense</label><br>
+
+            <input type="radio" id="rawGritty" name="listeningVibe" value="rawGritty">
+            <label for="rawGritty">Raw and gritty</label><br>
+
+            <input type="radio" id="upliftingMotivating" name="listeningVibe" value="upliftingMotivating">
+            <label for="upliftingMotivating">Uplifting and motivating</label><br>
+
+            <input type="radio" id="calmSerene" name="listeningVibe" value="calmSerene">
+            <label for="calmSerene">Calm and serene</label><br>
+        </div>
+
+        <!-- Question 8 -->
+        <div>
+            <p>Which theme in Rod Wave’s music speaks to you the most?</p>
+            <input type="radio" id="findingSuccess" name="musicTheme" value="findingSuccess" required>
+            <label for="findingSuccess">Finding success</label><br>
+
+            <input type="radio" id="innerStrength" name="musicTheme" value="innerStrength">
+            <label for="innerStrength">Quiet resilience and inner strength</label><br>
+
+            <input type="radio" id="overcomingStruggles" name="musicTheme" value="overcomingStruggles">
+            <label for="overcomingStruggles">Overcoming personal struggles</label><br>
+
+            <input type="radio" id="embracingSolitude" name="musicTheme" value="embracingSolitude">
+            <label for="embracingSolitude">Embracing loneliness and solitude</label><br>
+
+            <input type="radio" id="communitySupport" name="musicTheme" value="communitySupport">
+            <label for="communitySupport">The importance of community support</label><br>
+
+            <input type="radio" id="selfDiscovery" name="musicTheme" value="selfDiscovery">
+            <label for="selfDiscovery">The journey of self-discovery</label><br>
+        </div>
+
+        <!-- Question 9 -->
+        <div>
+            <p>How do you typically reflect on your past?</p>
+            <input type="radio" id="learnMoveForward" name="pastReflection" value="learnMoveForward" required>
+            <label for="learnMoveForward">I learn from it and move forward</label><br>
+
+            <input type="radio" id="focusOnGrowth" name="pastReflection" value="focusOnGrowth">
+            <label for="focusOnGrowth">I focus on how much I’ve overcome</label><br>
+
+            <input type="radio" id="inspiredToGrow" name="pastReflection" value="inspiredToGrow">
+            <label for="inspiredToGrow">I feel inspired to do better and keep growing</label><br>
+
+            <input type="radio" id="feelStuck" name="pastReflection" value="feelStuck">
+            <label for="feelStuck">I sometimes feel stuck but try to work through it</label><br>
+
+            <input type="radio" id="practiceForgiveness" name="pastReflection" value="practiceForgiveness">
+            <label for="practiceForgiveness">I focus on forgiveness, both for myself and others</label><br>
+        </div>
+                <!-- Question 10 -->
+                <div>
+                    <p>What inspires you the most?</p>
+                    <input type="radio" id="overcomingChallenges" name="inspiration" value="overcomingChallenges" required>
+                    <label for="overcomingChallenges">People who overcome great challenges.</label><br>
+        
+                    <input type="radio" id="stayingTrue" name="inspiration" value="stayingTrue">
+                    <label for="stayingTrue">Those who stay true to themselves.</label><br>
+        
+                    <input type="radio" id="friendsFamily" name="inspiration" value="friendsFamily">
+                    <label for="friendsFamily">Friends and family who support each other.</label><br>
+        
+                    <input type="radio" id="newExperiences" name="inspiration" value="newExperiences">
+                    <label for="newExperiences">People who constantly seek new experiences.</label><br>
+        
+                    <input type="radio" id="simpleBeauty" name="inspiration" value="simpleBeauty">
+                    <label for="simpleBeauty">Individuals who find beauty in simplicity.</label><br>
+        
+                    <input type="radio" id="passionateArtists" name="inspiration" value="passionateArtists">
+                    <label for="passionateArtists">Artists who are deeply passionate.</label><br>
+                </div>
+        
+                <!-- Question 11 -->
+                <div>
+                    <p>What's one thing you always try to do for yourself?</p>
+                    <input type="radio" id="setGoals" name="selfCare" value="setGoals" required>
+                    <label for="setGoals">Set big goals and work towards them.</label><br>
+        
+                    <input type="radio" id="reflectOnLife" name="selfCare" value="reflectOnLife">
+                    <label for="reflectOnLife">Take time to reflect on my life.</label><br>
+        
+                    <input type="radio" id="supportLovedOnes" name="selfCare" value="supportLovedOnes">
+                    <label for="supportLovedOnes">Be there for friends and family.</label><br>
+        
+                    <input type="radio" id="expressCreatively" name="selfCare" value="expressCreatively">
+                    <label for="expressCreatively">Find ways to express myself creatively.</label><br>
+        
+                    <input type="radio" id="focusOnMentalHealth" name="selfCare" value="focusOnMentalHealth">
+                    <label for="focusOnMentalHealth">Take breaks and focus on my mental health.</label><br>
+        
+                    <input type="radio" id="stayPositive" name="selfCare" value="stayPositive">
+                    <label for="stayPositive">Stay motivated and positive.</label><br>
+                </div>
+        
+                <!-- Question 12 -->
+                <div>
+                    <p>How do you stay motivated?</p>
+                    <input type="radio" id="focusOnDreams" name="motivation" value="focusOnDreams" required>
+                    <label for="focusOnDreams">I remind myself of my dreams and ambitions.</label><br>
+        
+                    <input type="radio" id="reflectOnProgress" name="motivation" value="reflectOnProgress">
+                    <label for="reflectOnProgress">I look back on how far I’ve come.</label><br>
+        
+                    <input type="radio" id="encouragementFromOthers" name="motivation" value="encouragementFromOthers">
+                    <label for="encouragementFromOthers">My friends and family encourage me.</label><br>
+        
+                    <input type="radio" id="creativePursuits" name="motivation" value="creativePursuits">
+                    <label for="creativePursuits">My creative pursuits keep me going.</label><br>
+        
+                    <input type="radio" id="takeItStepByStep" name="motivation" value="takeItStepByStep">
+                    <label for="takeItStepByStep">I take it one step at a time.</label><br>
+        
+                    <input type="radio" id="musicUpliftsMe" name="motivation" value="musicUpliftsMe">
+                    <label for="musicUpliftsMe">I listen to music that lifts my spirits.</label><br>
+                </div>
+                        <!-- Question 13 -->
+        <div>
+            <p>If you could give your younger self one piece of advice, what would it be?</p>
+            <input type="radio" id="neverGiveUp" name="adviceToSelf" value="neverGiveUp" required>
+            <label for="neverGiveUp">Never give up on your dreams.</label><br>
+
+            <input type="radio" id="enjoyTheMoment" name="adviceToSelf" value="enjoyTheMoment">
+            <label for="enjoyTheMoment">Take time to enjoy each moment.</label><br>
+
+            <input type="radio" id="stayCloseToLovedOnes" name="adviceToSelf" value="stayCloseToLovedOnes">
+            <label for="stayCloseToLovedOnes">Stay close to those who care about you.</label><br>
+
+            <input type="radio" id="expressYourself" name="adviceToSelf" value="expressYourself">
+            <label for="expressYourself">Don’t be afraid to express yourself.</label><br>
+
+            <input type="radio" id="embraceJourney" name="adviceToSelf" value="embraceJourney">
+            <label for="embraceJourney">Embrace your journey, even the hard parts.</label><br>
+
+            <input type="radio" id="findPeaceWithin" name="adviceToSelf" value="findPeaceWithin">
+            <label for="findPeaceWithin">Find peace within yourself.</label><br>
+        </div>
+
+        <!-- Question 14 -->
+        <div>
+            <p>Which activity brings you the most peace?</p>
+            <input type="radio" id="beingInNature" name="peaceActivity" value="beingInNature" required>
+            <label for="beingInNature">Spending time in nature</label><br>
+
+            <input type="radio" id="writingJournaling" name="peaceActivity" value="writingJournaling">
+            <label for="writingJournaling">Writing or journaling my thoughts</label><br>
+
+            <input type="radio" id="listeningToMusic" name="peaceActivity" value="listeningToMusic">
+            <label for="listeningToMusic">Listening to calming music</label><br>
+
+            <input type="radio" id="meditation" name="peaceActivity" value="meditation">
+            <label for="meditation">Meditating or practicing mindfulness</label><br>
+
+            <input type="radio" id="artisticExpression" name="peaceActivity" value="artisticExpression">
+            <label for="artisticExpression">Creating art or expressing myself</label><br>
+
+            <input type="radio" id="qualityTime" name="peaceActivity" value="qualityTime">
+            <label for="qualityTime">Spending quality time with friends/family</label><br>
+        </div>
+
+        <!-- Question 15 -->
+        <div>
+            <p>What type of environment helps you feel most like yourself?</p>
+            <input type="radio" id="homeComforts" name="idealEnvironment" value="homeComforts" required>
+            <label for="homeComforts">Being at home with familiar comforts</label><br>
+
+            <input type="radio" id="socialGatherings" name="idealEnvironment" value="socialGatherings">
+            <label for="socialGatherings">Lively gatherings with people</label><br>
+
+            <input type="radio" id="exploringOutdoors" name="idealEnvironment" value="exploringOutdoors">
+            <label for="exploringOutdoors">Exploring the outdoors and nature</label><br>
+
+            <input type="radio" id="quietSpaces" name="idealEnvironment" value="quietSpaces">
+            <label for="quietSpaces">Quiet spaces for introspection</label><br>
+
+            <input type="radio" id="creativeStudios" name="idealEnvironment" value="creativeStudios">
+            <label for="creativeStudios">Studios or spaces where I can create</label><br>
+
+            <input type="radio" id="culturalEvents" name="idealEnvironment" value="culturalEvents">
+            <label for="culturalEvents">Cultural events or concerts</label><br>
+        </div>
+
+        
+
+        
+
+       
+        <div>
+            <input id="submit-btn" type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
